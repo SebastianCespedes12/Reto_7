@@ -6,7 +6,7 @@ A(Inicio)-->B[i =1]
 B-->C{i<=100?}
 C-->|no|G(fin)
 C-->|si|D[cuad = i^2]
-D-->E[cuadrado de i es igual cuad]
+D-->E[cuadrado de i es igual a cuad]
 E-->F[i+=1]
 F-->C
 ```
